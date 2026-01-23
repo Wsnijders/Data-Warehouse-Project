@@ -45,6 +45,9 @@ BEGIN
 			FIELDTERMINATOR = ',',
 			TABLOCK
 		);
+		DELETE FROM bronze.crm_cust_info
+			WHERE
+	 			cst_id IS NULL
 		SET @end_time = GETDATE();
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + 'seconds';
 		PRINT '-----------------------'
