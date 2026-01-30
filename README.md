@@ -5,7 +5,7 @@ A SQL-based data warehouse project demonstrating dimensional modeling, ETL trans
 **Project Requirements**
 
 **Building the Data Warehouse (Data Engineering)**
-Objective
+Objective:
 Develop a modern data warehouse using SQL server to combine sales data, enabling analytical reporting and informed decision-making.
 
 **Specifications**
